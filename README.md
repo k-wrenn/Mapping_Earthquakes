@@ -1,1 +1,6 @@
 # Mapping_Earthquakes
+The purpose of this project is to visually show the differences between magnitudes of earthquakes within the last 7 days worldwide. An API was used to access a URL for GeoJSON data from the USGS website. The location and magnitude of each earthquake is added to a map. JavaScript and D3.js library were used to retrieve the coordinates and magnitudes of the earthquakes from the GeoJSON data. Leaflet library was used to plot the data on a Mapbox through the API request and an inteactive map was created for the earthquake data.
+
+The user can toggle between different layers such as tectonic plate display, display of all earthquakes, or display of major earthquakes only. For this project, an earthquake with a magnitude greater than 4.5 is considered a major earthquake. The user can also choose from different map back drops such as street, satellite, and dark. 
+
+Each earthquake is represented by a circle and color, where a higher magnitude will have a larger diameter and will be darker in color. A legend is located in the lower right hand corner depicting the differnt colors associated with different magnitudes. In addition, each earthquake has a popup that, when clicked, will show the magnitude and location of the earthquake.
